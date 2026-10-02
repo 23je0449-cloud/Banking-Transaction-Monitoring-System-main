@@ -1,0 +1,35 @@
+# Power BI DAX Measures
+Create these measures after loading the transactions table.
+
+Total Transactions = COUNTROWS(transactions)
+
+Total Transaction Value = SUM(transactions[amount])
+
+Successful Transactions =
+CALCULATE(
+    COUNTROWS(transactions),
+    transactions[status] = "Success"
+)
+
+Successful Transaction Value =
+CALCULATE(
+    SUM(transactions[amount]),
+    transactions[status] = "Success"
+)
+
+Failed Transactions =
+CALCULATE(
+    COUNTROWS(transactions),
+    transactions[status] = "Failed"
+)
+
+Failed Transaction Rate =
+DIVIDE([Failed Transactions], [Total Transactions], 0)
+
+Flagged Transactions =
+CALCULATE(
+    COUNTROWS(transactions),
+    transactions[risk_flag] = 1
+)
+
+Average Transaction Value = AVERAGE(transactions[amount])
