@@ -1,19 +1,23 @@
 # 🏦 Banking Transaction Monitoring System
 
 <p align="center">
-  <img src="assets/dashboard-preview.svg" alt="Banking Transaction Monitoring Dashboard conceptual preview" width="100%" />
-</p>
-
-<p align="center">
   <strong>SQL · Python · Power BI</strong><br/>
   Transaction trends • Channel performance • Status monitoring • Rule-based risk review
 </p>
+
+## 📊 Power BI Dashboard
+The interactive dashboard is built in Power BI Desktop. GitHub README pages cannot render a `.pbix` file directly; this section will show the **actual dashboard screenshot** once an image exported from Power BI is added to `assets/`.
+
+**Dashboard file:** `Banking_Transaction_Monitoring_Dashboard.pbix`  
+**Dashboard pages planned:** Executive Overview, Risk Review, and Customer & Merchant Insights.
+
+> To display the real dashboard here, export a screenshot from Power BI Desktop (or use a screenshot of the report canvas) and save it as `assets/dashboard-screenshot.png`. Do not use the conceptual preview as if it were the real report.
 
 ## ✨ Project Overview
 A portfolio project using SQL, Python, and Power BI to analyze **synthetic** banking transaction activity, monitor transaction channels and statuses, and review rule-flagged transactions.
 
 ## 📌 Project Highlights
-- Project dataset: 500 synthetic customer records and 10,000 synthetic transaction records.
+- Dataset: 500 synthetic customer records and 10,000 synthetic transaction records.
 - MySQL database setup, table schema, indexes, and analytical SQL queries.
 - Python data-quality checks, KPI summaries, and charts.
 - Jupyter notebook for exploratory analysis.
@@ -23,7 +27,7 @@ A portfolio project using SQL, Python, and Power BI to analyze **synthetic** ban
 ## 🗂️ Repository Structure
 ```text
 assets/
-  dashboard-preview.svg       # Conceptual landing-page preview, not live Power BI output
+  dashboard-preview.svg       # Conceptual illustration only; not the actual report
 data/
   processed/
     channel_summary.csv
@@ -57,9 +61,6 @@ python python/analysis.py
 2. Run `sql/02_create_tables.sql`.
 3. Import the raw customer and transaction CSV files into their corresponding tables.
 4. Run `sql/03_analysis_queries.sql`.
-
-## 📊 Power BI
-The repository currently contains a dashboard build guide and DAX measures. Follow `powerbi/dashboard_build_guide.md` to create the report in Power BI Desktop. The image at the top is a **conceptual preview**, not a screenshot of a live dashboard.
 
 ## ⚠️ Data & Limitations
 The intended dataset is synthetic. The `risk_flag` field uses simple illustrative rules; it is **not a trained or validated fraud-detection model**. Do not describe this as real bank experience or production fraud detection.
