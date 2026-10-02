@@ -68,3 +68,6 @@ All data is **synthetic** and generated for demonstration. The `risk_flag` field
 
 ## 💼 Resume Bullet
 > Built a banking transaction analytics portfolio project using SQL, Python (Pandas), and Power BI to analyze 10,000 synthetic transactions, track channel and monthly KPIs, and review rule-based risk flags.
+
+## Auther
+>**yash kamble**
