@@ -6,8 +6,8 @@
 </p>
 
 ## ## 📊 Power BI Dashboard
+![Banking Transaction Monitoring Dashboard](assets/power%20bi%20dashboard.jpeg)
 
-![Banking Transaction Monitoring Dashboard](assets/dashboard-screenshot.jpeg)
 
 **Dashboard file:** `Banking_Transaction_Monitoring_Dashboard.pbix`  
 **Dashboard pages planned:** Executive Overview, Risk Review, and Customer & Merchant Insights.
