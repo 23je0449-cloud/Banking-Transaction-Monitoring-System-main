@@ -5,8 +5,9 @@
   Transaction trends • Channel performance • Status monitoring • Rule-based risk review
 </p>
 
-## 📊 Power BI Dashboard
-The interactive dashboard is built in Power BI Desktop. GitHub README pages cannot render a `.pbix` file directly; this section will show the **actual dashboard screenshot** once an image exported from Power BI is added to `assets/`.
+## ## 📊 Power BI Dashboard
+
+![Banking Transaction Monitoring Dashboard](assets/dashboard-screenshot.jpeg)
 
 **Dashboard file:** `Banking_Transaction_Monitoring_Dashboard.pbix`  
 **Dashboard pages planned:** Executive Overview, Risk Review, and Customer & Merchant Insights.
